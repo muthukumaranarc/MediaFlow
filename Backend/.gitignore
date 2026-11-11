@@ -1,0 +1,34 @@
+# Maven build output
+target/
+
+# Runtime data: H2 database files
+data/
+*.db
+*.mv.db
+*.trace.db
+*.lock.db
+
+# Uploaded/generated media, HLS segments, captions
+storage/
+
+# Logs
+logs/
+*.log
+
+# Local env files
+.env
+.env.local
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.classpath
+.project
+
+# OS files
+.DS_Store
+Thumbs.db
